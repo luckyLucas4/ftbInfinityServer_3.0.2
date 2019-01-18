@@ -1,0 +1,70 @@
+[10:48:45] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[10:48:45] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[10:50:32] [Server thread/INFO]: Loading properties
+[10:50:32] [Server thread/INFO]: Default game type: SURVIVAL
+[10:50:32] [Server thread/INFO]: Generating keypair
+[10:50:32] [Server thread/INFO]: Starting Minecraft server on *:25566
+[10:51:40] [Server thread/INFO]: Preparing level "world"
+[10:51:50] [Server thread/INFO]: Preparing start region for level 0
+[10:51:50] [Server thread/INFO]: Done (10.925s)! For help, type "help" or "?"
+[10:58:05] [User Authenticator #1/INFO]: UUID of player LuckyElectrike is ebae0a1c-a0b0-4887-aa83-178e9690173d
+[10:58:09] [Server thread/INFO]: LuckyElectrike[/192.168.1.1:11561] logged in with entity id 475 at (-109.32105044410552, 74.0, 52.26823557453383)
+[10:58:09] [Server thread/INFO]: LuckyElectrike joined the game
+[11:03:03] [User Authenticator #2/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
+[11:03:05] [Server thread/INFO]: ElvisLang[/94.254.57.188:28517] logged in with entity id 4520 at (-36.5, 74.0, 57.5)
+[11:03:05] [Server thread/INFO]: ElvisLang joined the game
+[11:05:01] [Server thread/INFO]: LuckyElectrike was blown up by Creeper
+[11:05:41] [Server thread/INFO]: ElvisLang has just earned the achievement [Taking Inventory]
+[11:12:23] [Server thread/INFO]: ElvisLang has just earned the achievement [Getting Wood]
+[11:15:30] [Server thread/INFO]: ElvisLang has just earned the achievement [Sky of Beginning]
+[11:18:11] [Captainnana/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@679ee2b7[id=bc081b1b-e345-4f6f-aef8-dbe8b56ea17d,name=Captainnana,properties={textures=[com.mojang.authlib.properties.Property@781b6c2d]},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[minecraft_server.1.7.10.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:135) [minecraft_server.1.7.10.jar:?]
+	at ganymedes01.headcrumbs.network.packet.TextureRequestPacket$1.run(TextureRequestPacket.java:54) [TextureRequestPacket$1.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[11:23:23] [Rajecent/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@453f3364[id=9a0c55e2-635d-4b7b-aa62-b8fab574af35,name=Rajecent,properties={textures=[com.mojang.authlib.properties.Property@31ae5989]},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[minecraft_server.1.7.10.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:135) [minecraft_server.1.7.10.jar:?]
+	at ganymedes01.headcrumbs.network.packet.TextureRequestPacket$1.run(TextureRequestPacket.java:54) [TextureRequestPacket$1.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[11:26:48] [Server thread/INFO]: ElvisLang lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:26:48] [Server thread/INFO]: ElvisLang left the game
+[11:27:39] [User Authenticator #3/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
+[11:27:41] [Server thread/INFO]: ElvisLang[/94.254.57.188:28516] logged in with entity id 34120 at (-109.94184039152056, 74.0, 49.14666616322234)
+[11:27:41] [Server thread/INFO]: ElvisLang joined the game
+[11:28:23] [Server thread/INFO]: ElvisLang lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:28:23] [Server thread/INFO]: ElvisLang left the game
+[11:29:05] [Server thread/INFO]: LuckyElectrike lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:29:05] [Server thread/INFO]: LuckyElectrike left the game
+[11:29:16] [Server thread/INFO]: Stopping the server
+[11:29:16] [Server thread/INFO]: Stopping server
+[11:29:16] [Server thread/INFO]: Saving players
+[11:29:16] [Server thread/INFO]: Saving worlds
+[11:29:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Dungeon
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[11:29:18] [Server thread/INFO]: Saving chunks for level 'world'/Mining World
